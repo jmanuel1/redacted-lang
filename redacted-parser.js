@@ -448,8 +448,21 @@ function scp(stream, index) {
 fetch("examples/square-root-digit-sums.redacted")
   .then((response) => response.text())
   .then((text) => {
-    document.getElementById("program-display").textContent = text;
-    const tree = scp(lex(String(text)), 0);
-    const pretty = JSON.stringify(tree, undefined, 4);
-    document.getElementById("tree-display").textContent = pretty;
+    textarea.defaultValue = text;
+    parse_and_display_ast(text);
+  });
+
+const textarea = document.getElementById("program-display");
+
+function parse_and_display_ast(text) {
+  const tree = scp(lex(String(text)), 0);
+  const pretty = JSON.stringify(tree, undefined, 4);
+  document.getElementById("tree-display").textContent = pretty;
+}
+
+document
+  .querySelector("[name=parse-button]")
+  .addEventListener("click", function () {
+    const text = textarea.value;
+    parse_and_display_ast(text);
   });

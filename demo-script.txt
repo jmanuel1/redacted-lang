@@ -1,9 +1,15 @@
+* Use a timer *
+
 Hello, my name's Jason, and I arrive with a brand new shiny programming language. Or, at least half an implementation and no spec.
 
 Computer languages have been developed for decades in an attempt to perfect the link between man and machine. But they haven't realized the solution was right in front of them--in the form of Creative Commons-licensed fiction.
 
-Introducing [REDACTED], a anomolus language that reads like a poorly written non-sense SCP. [REDACTED] is based on the writing found in the SCP Wiki. It supports function calls, variables, if statements, expressions, and the wonderful GOTO.
+Introducing [REDACTED], an anomolus language that reads like a poorly written non-sense SCP. [REDACTED] is based on the writing found in the SCP Wiki. It supports function calls, variables, if statements, expressions, and the wonderful GOTO.
 
 *Start sharing screen here!*
 
-Here, you can see an example, of some [REDACTED] code. Below, you can see the approximate representation of the structure of the program, which was just parsed in my browser.
+Here, you can see an example, of some [REDACTED] code. Below, you can see the approximate representation of the structure of the program, which was just parsed in my browser. The nice thing is that we already have an editing environment! So....
+
+* Make some edits and press parse *
+
+BAM, AN IDE!!!!!!
