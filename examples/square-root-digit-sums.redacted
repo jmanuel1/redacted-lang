@@ -1,0 +1,29 @@
+[!-- Based on http://www.scp-wiki.net/scp-3577 by  and https://www.mathblog.dk/files/euler/Problem80.cs. CC v. 3 licensed. --]
+
+Item #: SCP-3577
+
+Object Class: Euclid
+
+Special Containment Procedures:
+
+-----
+
+Description:
+SCP-3577-1 does not cause paradoxes. [!-- result = 0 --]
+SCP-3577-2 has unique features. [!-- j = 1 --]
+SCP-3577-3 is a single instance of SCP-3577. [!-- i = 1 --]
+
+-----
+
+Addendum 3577-A: [!-- for loop --]
+If the square containment chamber of SCP-3577-2 is SCP-3577-3, [!-- if j*j == i --]
+SCP-3577-2 will generate a new instance of SCP-3577. [!-- j++ --]
+See Addendum 3577-A. [!-- continue --]
+
+-----
+
+SCP-3577-1, in addition to (the origination of (the cause of SCP-3577-3 and GoI-100)), became SCP-3577-1. [!-- result += DigitSum(Squareroot(i, 100)) --]
+
+If SCP-3577-3 is at most 100 Humes, see Addendum 3577-A. [!-- loop test --]
+
+-----
